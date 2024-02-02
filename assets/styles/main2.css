@@ -1,0 +1,91 @@
+html{
+
+    background-color: rgb(45, 66, 80);
+}
+.banner{
+    padding-top:80px;
+    width: 67vw;
+    height: 470px;
+    margin-left: 305px;
+    object-fit: cover;
+    position:absolute;
+  
+  }
+  h1{
+    text-align: center;
+    font-size:65px;
+    position:relative;
+    margin-bottom: 0;
+    color: rgb(186, 186, 166);
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  h2{
+    text-align: center;
+    font-size:35px;
+    position:relative;
+    border: 1px solid rgb(186, 186, 166);;
+    color: rgb(186, 186, 166);
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  
+  nav a { 
+    padding: 5px;
+    font-weight: 400;
+    position: relative;
+    top: 8%;
+    margin-left:20px;
+    color: rgb(89, 90, 56);
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 0px solid rgba(100, 100, 100, 1);
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.52);
+  
+   }
+  
+  .contenedor{
+   display: inline-block;
+   width: 68%;
+   height:500px;
+   padding: 5px;
+   position: relative;
+   font-family: 'Inconsolata', monospace;
+  
+  }
+  
+  .jugador, .logo{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    object-fit: cover;
+  
+  }
+  .logo {
+    top:450px;
+    bottom:0;
+    padding:45px;
+  }
+  
+  .jugador{
+    top:640px;
+    bottom: 50px;
+    padding:45px;
+  }
+   
+  .parrafos{
+    position:relative;
+    top:430px;
+    left:300px;
+    font-size: 20px;
+    color: rgb(186, 186, 166);
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  section > p{
+  padding: 5px 0 15px 25px;
+  margin:10px;
+  color: rgb(186, 186, 166);
+  }
+  
