@@ -96,7 +96,7 @@ h2{
   text-align: center;
   color:  rgb(45, 66, 80);
   font-family: 'Lexend', sans-serif; 
-  background-color:rgb(186, 186, 166) ;
+  background-color:rgb(186, 186, 166);
  }
 
 div h3,p{
@@ -151,4 +151,35 @@ div dl,h4,ol{
   color: rgb(186, 186, 166);
   font-family: 'Lexend', sans-serif;
   text-shadow: 0px 0px 5px rgba(13, 13, 12, 1);
+}
+
+/* CSS Form */
+form{
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(186, 186, 166);
+  font-family: 'Lexend', sans-serif; 
+  text-shadow: 0px 0px 5px rgba(13, 13, 12, 1);
+}
+fieldset.live, .position, .sizes{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 20px;
+}
+
+fieldset.form, .gender, .grade{
+  display: flex;
+  flex-direction: column;
+  border: none;
+} 
+
+button{
+  text-align: center;
+  color:  rgb(45, 66, 80);
+  font-family: 'Lexend', sans-serif; 
+  background-color:rgb(186, 186, 166);
 }
